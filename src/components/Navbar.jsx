@@ -5,7 +5,7 @@ import { LiaPasteSolid } from "react-icons/lia";
 
 const Navbar = () => {
   return (
-    <div className="flex gap-11 w-full h-[40px]   m-5 ">
+    <div className="flex gap-11 w-full h-[40px] m-5 ">
       <NavLink
         to={"/"}
         className={

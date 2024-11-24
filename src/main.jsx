@@ -10,7 +10,7 @@ import { Toaster } from 'react-hot-toast';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={store}>
-    <App />
+    <App className="overflow-x-hidden	"/>
     <Toaster />
     </Provider>
   </StrictMode>,
